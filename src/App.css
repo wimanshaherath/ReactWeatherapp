@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  
+}
+.App {
+  text-align: center;
+  background: linear-gradient(#030e2b,#0a3e4b,#1c234e);
+  background-size: cover;
+}
+
+.app-warm
+{
+  background: linear-gradient(#030e2b,#0a3e4b,#1c234e);
+}
+
+main{
+  min-height: 100vh;
+  padding:25px;
+}
+
+.search-box
+{
+  width: 100%;
+  margin:0 0 55px;
+}
+
+.search-box .search-bar
+{
+  width: 100%;
+  padding:10px;
+  display:block;
+
+  appearance: none;
+  border:none;
+
+  background:rgb(21, 93, 119);
+  color:white;
+  font-size: 12pt;
+
+  border-radius: 0 0 10px 10px;
+  margin-top: -25px;
+  box-shadow: 0 5px black;
+
+  transition:0.4s ease;
+  
+}
+
+.search-box .search-bar:focus
+{
+  background:rgb(33, 161, 207);
+}
+
+.location-box
+{
+  color:white;
+  padding:15px; 
+
+}
+.location-box .location{
+  font-size: 20pt;
+  margin-bottom:5px;
+}
+
+.location-box .date{
+  font-size: 13pt;
+  font-style: italic;
+}
+.weather-box
+{
+  color:white;
+
+}
+
+.weather-box .temp
+{
+  background: rgba(225,225,225,0.5);
+  
+  display:inline-block;
+  
+  font-size: 50pt;
+  font-weight:700;
+  padding:10px;
+  border-radius: 10px;
+  margin:10px auto;
+
+  text-shadow: 1px 4px rgba(8, 8, 8, 0.5);
+}
+
+.weather-box .weather{
+  font-size:24pt;
+  font-weight: bold;
+}
+@keyframes App-logo-spin {
+  from {
+    
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
